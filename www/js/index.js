@@ -2,7 +2,7 @@ document.addEventListener('deviceready', () => {
 	cordova.plugins.notification.local.schedule({
 		title: "Cami",
 		text: "¡Recuerda tomar tu pastilla!",
-		every: { minute: 35 },
+		every: { minute: 45 },
 		actions: [
 			{id: "take", title: "Tomar pastilla"},
 			{id: "snooze", title: "Más tarde"}
